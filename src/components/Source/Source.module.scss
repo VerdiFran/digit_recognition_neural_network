@@ -1,0 +1,15 @@
+@import './../../assets/colors';
+
+.canvasesContainer {
+    width: 393px;
+    height: 393px;
+    margin: 0;
+
+    & > canvas {
+        position: absolute;
+        display: block;
+        margin: 0;
+        border: 1px solid $main-color;
+    }
+
+}
