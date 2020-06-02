@@ -1,7 +1,26 @@
 @import "src/assets/colors";
 
 .resultContainer {
-    width: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'arrow digit';
     font-size: 130pt;
     color: $main-text-color;
+
+    & > div {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        &:first-of-type {
+            grid-area: arrow;
+        }
+
+        &:last-of-type {
+            grid-area: digit;
+        }
+    }
 }

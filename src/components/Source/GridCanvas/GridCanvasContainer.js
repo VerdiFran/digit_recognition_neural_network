@@ -1,6 +1,5 @@
 import React from 'react'
 import GridCanvas from './GridCanvas'
-import {drawGrid} from '../../../redux/recognitionReducer'
 import {connect} from 'react-redux'
 
 class GridCanvasContainer extends React.Component {
@@ -13,4 +12,4 @@ class GridCanvasContainer extends React.Component {
 
 let mapStateToProps = (state) => ({})
 
-export default connect(mapStateToProps, {drawGrid})(GridCanvasContainer)
+export default connect(mapStateToProps, {})(GridCanvasContainer)

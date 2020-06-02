@@ -14,7 +14,6 @@ function App() {
                 <Header/>
                 <div className='mainContent'>
                     <SourceContainer/>
-                    <div>--></div>
                     <ResultContainer/>
                 </div>
                 <ControlPanelContainer/>

@@ -7,10 +7,10 @@ const ControlPanel = (props) => {
     return (
         <div className={styles.controlPanel}>
             <div onClick={props.clearSourceData}>
-                <img src={clearImage}/>
+                <img src={clearImage} alt='clear'/>
             </div>
             <div onClick={props.calculate}>
-                <img src={recognizeImage}/>
+                <img src={recognizeImage} alt='recognize'/>
             </div>
         </div>
     )
